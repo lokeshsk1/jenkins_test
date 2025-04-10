@@ -1,0 +1,10 @@
+{
+  "name": "postman-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx newman run MyAPITests.postman_collection.json"
+  },
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
