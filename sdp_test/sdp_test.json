@@ -1,0 +1,40 @@
+{
+    "info": {
+        "_postman_id": "cb4d3bd3-23e2-4711-9d4a-712694dba0de",
+        "name": "test",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+        "_exporter_id": "35305179"
+    },
+    "item": [
+        {
+            "name": "solutions",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Zoho-oauthtoken 1000.3bc24fa6551df279386238c8fc080f57.45f5370519bddbcd314370028464c6ed",
+                        "type": "text"
+                    }
+                ],
+                "url": "https://sdpmspc-master.csez.zohocorpin.com:32000/api/v3/solutions"
+            },
+            "response": []
+        },
+        {
+            "name": "requests",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Zoho-oauthtoken 1000.3bc24fa6551df279386238c8fc080f57.45f5370519bddbcd314370028464c6ed",
+                        "type": "text"
+                    }
+                ],
+                "url": "https://sdpmspc-master.csez.zohocorpin.com:32000/api/v3/requests"
+            },
+            "response": []
+        }
+    ]
+}
